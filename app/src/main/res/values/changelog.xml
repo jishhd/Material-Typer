@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="intro_titles">
+        <item>Welcome to Typer!</item>
+        <item>Create A New Post</item>
+        <item>Edit, Delete, &amp; Share</item>
+        <item>Filters &amp; Search</item>
+        <item>Future Features</item>
+        <item>Try It Out Yourself!</item>
+    </string-array>
+    <string-array name="intro_bodies">
+        <item>This is a simple Material Design inspired app for typing whatever your little heart desires.</item>
+        <item>Tap the plus button at the bottom of the screen to start taking notes and typing posts. The button will hide while scrolling down.</item>
+        <item>Tap on a post to edit, swipe it to the side to delete, or tap the share button to send to friends. The most recently deleted post is recoverable until the bottom bar is swiped away.</item>
+        <item>Organize your posts through a rainbow of colors! Open the filter options by tapping the top left button, or by swiping from the left edge. The magnifying glass searches for keywords.</item>
+        <item>• Reminder notifications to post each day.\n• Homescreen widgets.\n• Google Drive backup and restore.\n• Updated tablet interface.\n• Custom icons and labels for categories.</item>
+        <item>Delete these introduction cards, and start typing up your own posts!</item>
+    </string-array>
+    <string-array name="intro_colors">
+        <item>red</item>
+        <item>orange</item>
+        <item>yellow</item>
+        <item>green</item>
+        <item>blue</item>
+        <item>purple</item>
+    </string-array>
+
+    <string-array name="update_versions">
+        <item>v0.5.2b - 8/13/15</item>
+        <item>v0.4b - 7/28/15</item>
+        <item>v0.3b - 7/27/15</item>
+        <item>v0.2b - 7/19/15</item>
+        <item>v0.1b - 7/14/15</item>
+    </string-array>
+    <string-array name="update_text">
+        <item>• New post sharing button.\n• New shared element transition animations for 5.0+\n• Re-enabled pre-Lollipop animations.\n• New minimum API 16 (Android 4.1+).\n• Various bugfixes.</item>
+        <item>• Prepped internals for future updates.\n• New keyword filtered search.\n• New Help &amp; About section.</item>
+        <item>• Redesigned card interface.\n• Fixed nav drawer icons not being colored pre-5.0.</item>
+        <item>• New color options for cards.\n• New navigation drawer for color filtering.</item>
+        <item>• Initial beta release.</item>
+    </string-array>
+
+    <string name="about_title">Help &amp; About</string>
+    <string name="about_text">Questions? Comments? <a href="mailto://josh.hd@live.com">Email me.</a>
+        \n\nBrought To You By:
+        \n• Google\'s <a href="https://www.google.com/design/spec/material-design/introduction.html">Material Design Guidelines</a>
+        \n• BitFountain\'s <a href="http://fedora.bitfountain.io/courses/android">Android Immersive</a>
+        \n• Reddit\'s <a href="https://www.reddit.com/r/androiddev/">r/AndroidDev</a>
+        \n• Alex Lockwood\'s <a href="http://www.androiddesignpatterns.com/">Design Blog</a>
+        \n• Paul Burke\'s <a href="https://github.com/iPaulPro/Android-ItemTouchHelper-Demo">ItemTouchHelper</a>
+        \n• Xaver Kapeller\'s <a href="https://github.com/Wrdlbrnft/Searchable-RecyclerView-Demo">Searchable Recycler</a>
+        \n• Roman Nurik\'s <a href="https://romannurik.github.io/AndroidAssetStudio/">Android Asset Studio</a>
+    </string>
+
+</resources>

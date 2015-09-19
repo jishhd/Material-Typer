@@ -1,0 +1,57 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/black</item>
+
+        <item name="android:windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+
+    <style name="RedTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/red_500</item>
+        <item name="colorPrimaryDark">@color/red_700</item>
+    </style>
+    <style name="OrangeTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/orange_500</item>
+        <item name="colorPrimaryDark">@color/orange_700</item>
+    </style>
+    <style name="YellowTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/amber_600</item>
+        <item name="colorPrimaryDark">@color/amber_700</item>
+    </style>
+    <style name="GreenTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/light_green_500</item>
+        <item name="colorPrimaryDark">@color/light_green_700</item>
+    </style>
+    <style name="BlueTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/light_blue_500</item>
+        <item name="colorPrimaryDark">@color/light_blue_700</item>
+    </style>
+    <style name="PurpleTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+    </style>
+
+    <style name="RedThemeAccented" parent="RedTheme">
+        <item name="colorAccent">@color/pink_A400</item>
+    </style>
+    <style name="OrangeThemeAccented" parent="OrangeTheme">
+        <item name="colorAccent">@color/deep_orange_A400</item>
+    </style>
+    <style name="YellowThemeAccented" parent="YellowTheme">
+        <item name="colorAccent">@color/amber_A400</item>
+    </style>
+    <style name="GreenThemeAccented" parent="GreenTheme">
+        <item name="colorAccent">@color/green_A400</item>
+    </style>
+    <style name="BlueThemeAccented" parent="BlueTheme">
+        <item name="colorAccent">@color/blue_A400</item>
+    </style>
+    <style name="PurpleThemeAccented" parent="PurpleTheme">
+        <item name="colorAccent">@color/deep_purple_A400</item>
+    </style>
+
+</resources>

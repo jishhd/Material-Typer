@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/drawer_color_filter_group"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_filter_all"
+            android:icon="@drawable/circle_black"
+            android:title="All"
+            android:checked="true"/>
+        <item
+            android:id="@+id/nav_filter_red"
+            android:icon="@drawable/circle_red"
+            android:title="Red" />
+        <item
+            android:id="@+id/nav_filter_orange"
+            android:icon="@drawable/circle_orange"
+            android:title="Orange" />
+        <item
+            android:id="@+id/nav_filter_yellow"
+            android:icon="@drawable/circle_yellow"
+            android:title="Yellow" />
+        <item
+            android:id="@+id/nav_filter_green"
+            android:icon="@drawable/circle_green"
+            android:title="Green" />
+        <item
+            android:id="@+id/nav_filter_blue"
+            android:icon="@drawable/circle_blue"
+            android:title="Blue" />
+        <item
+            android:id="@+id/nav_filter_purple"
+            android:icon="@drawable/circle_purple"
+            android:title="Purple" />
+    </group>
+
+    <group
+        android:id="@+id/drawer_settings_group">
+        <!--<item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_gear"
+            android:title="Settings" />-->
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_info"
+            android:title="Help &amp; About" />\
+    </group>
+
+</menu>
+

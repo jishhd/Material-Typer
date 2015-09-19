@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="post_list_horizontal_padding">@dimen/card_margin_large</dimen>
+    <dimen name="post_item_horizontal_margin">@dimen/card_margin_tiny</dimen>
+    <dimen name="post_item_vertical_margin">@dimen/card_margin_tiny</dimen>
+</resources>

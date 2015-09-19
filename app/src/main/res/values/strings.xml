@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Typer</string>
+    <string name="app_name_full">Material Typer</string>
+
+    <string name="action_search">Search</string>
+
+    <string name="post_list_empty_text">Looks like there\'s\nnothing here!</string>
+    <string name="post_list_title">Title goes here</string>
+    <string name="post_list_date">Date</string>
+    <string name="post_list_text">Body text goes here</string>
+
+    <string name="post_title_hint">Title</string>
+    <string name="post_text_hint">Say something about it.</string>
+
+    <string name="drawer_open">Open Drawer</string>
+    <string name="drawer_close">Close Drawer</string>
+    <string name="nav_header">Filter by Color</string>
+
+    <string name="intro_cards_relaunch">RELAUNCH INTRO CARDS</string>
+    <string name="dialog_updates">UPDATES</string>
+
+</resources>

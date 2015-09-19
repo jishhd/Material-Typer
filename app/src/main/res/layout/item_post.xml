@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/tools"
+
+    android:id="@+id/post_card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/post_item_vertical_margin"
+    android:layout_marginBottom="@dimen/post_item_vertical_margin"
+    android:layout_marginLeft="@dimen/post_item_horizontal_margin"
+    android:layout_marginRight="@dimen/post_item_horizontal_margin"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:focusable="true"
+    android:clickable="true"
+    card_view:cardUseCompatPadding="true"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/post_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:textSize="24sp"
+                android:paddingTop="8dp"
+                android:paddingBottom="0dp"
+                android:paddingRight="0dp"
+                android:paddingLeft="0dp"
+                android:hint="@string/post_title_hint"
+                android:layout_weight="1"
+                android:maxLines="2"
+                />
+
+            <ImageButton
+                android:id="@+id/post_card_btn_share"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/ic_share"
+                android:tint="@color/black"
+                android:background="?android:selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/post_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="14sp"
+            android:text="@string/post_list_date"/>
+
+        <TextView
+            android:id="@+id/post_body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="14sp"
+            android:text="@string/post_text_hint"
+            android:gravity="top|start"
+            android:layout_marginTop="16dp"
+            />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

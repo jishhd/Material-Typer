@@ -1,0 +1,10 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="post_list_horizontal_padding">0dp</dimen>
+    <dimen name="post_item_horizontal_margin">@dimen/card_margin</dimen>
+    <dimen name="post_item_vertical_margin">@dimen/card_margin_tiny</dimen>
+
+</resources>
